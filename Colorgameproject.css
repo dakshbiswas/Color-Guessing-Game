@@ -1,0 +1,83 @@
+body{
+	background: #232323;
+	margin: 0;
+	font-family: 'Orbitron', sans-serif;
+letter-spacing: 5px;
+}
+
+.square{
+
+	width: 30%;
+	background: white;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 10%;
+	transition: background 0.6s;
+}
+
+#container{
+	width: 500px;
+	margin: 0px auto;
+	padding-top: 30px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.4;
+	padding: 15px 0;
+
+}
+
+.correct{
+	color: rgb(255, 0, 0);
+}
+
+.stripe{
+	background: white;
+	text-align: center;
+	color: black;
+	height: 30px;
+}
+
+.selected{
+	background: steelblue;
+color: white;
+
+}
+
+#colorDisplay{
+	font-size: 1.5em;
+		transition: background 0.5s;
+
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	height: 100%;
+	font-family: 'Orbitron', sans-serif;
+	outline: none;
+}
+
+button:hover{
+color: white;
+background: steelblue;
+}
+
+.Result{
+display: inline-block;
+width: 20%;	
+font-family: 'Orbitron', sans-serif;
+letter-spacing: 1px;
+}
